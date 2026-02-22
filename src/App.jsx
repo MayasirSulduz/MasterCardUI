@@ -39,7 +39,9 @@ import Atm from './components/Atm.jsx'
 
 function App() {
   return (
-    <Atm />
+    <div className="h-screen flex items-center justify-center">
+      <Atm />
+    </div>
   )
 }
 
