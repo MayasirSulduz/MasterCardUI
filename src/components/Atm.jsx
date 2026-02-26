@@ -54,15 +54,16 @@ function Atm() {
                         backfaceVisibility: "hidden",
                         transform: "rotateY(180deg)",
                     }}
-                    className="absolute inset-0 w-full h-full bg-gray-800 rounded-2xl text-white flex flex-col justify-center items-center"
+                    className="absolute inset-0 w-full h-full bg-gray-800 rounded-2xl text-white flex flex-col items-center"
                 >
-                 <p className="text-center text-sm"> for service, please call (+1) 123-4567</p>
-                    {/*<div className="w-full h-12 bg-black mt-"></div>
-                    <div className="flex items-center gap-4 mt-6 px-6 w-full">
-                        <div className="flex-1 bg-white h-10 rounded"></div>
+                    <p className="text-sm text-gray-300 p-2 "> for service, please call (+1) 123-4567</p>
+                    <div className="w-full h-12 bg-black"></div>
+                    <div className="flex items-center gap-4 m-4 px-6 w-full">
+                        {/* <div className="flex-1 bg-white h-10 rounded"></div> */}
+                        <div className="flex-1 h-10 rounded bg-[repeating-linear-gradient(to_bottom,#ffffff_0,#ffffff_4px,#f1f1f1_4px,#f1f1f1_5px)]"></div>
                         <p className="text-gray-300 font-bold text-lg">123</p>
                     </div>
-                    <p className="text-gray-400 text-sm mt-6">CVV</p> */}
+                    <p className="text-sm text-gray-300 p-3" >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                 </div>
             </div>
         </div>
